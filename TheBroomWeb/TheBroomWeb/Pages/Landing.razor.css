@@ -1,0 +1,68 @@
+.logo {
+    position: relative;
+    max-width: 12.6vw;
+    max-height: 22vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    top: 6vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.castle {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 98.35vw; /* Maximum width is the full viewport width */
+    max-height: 48.3vh; /* Maximum height is the full viewport height */
+    width: auto;       /* Maintain aspect ratio */
+    height: auto;      /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the image is scaled within bounds */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    pointer-events: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 13.4vmin;/*clamp(6rem, 13.4vh, 150px);/*150px;/*9rem;*/
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    margin-top: 10vh;
+    margin-bottom: 3.1vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5.8vmin;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    margin: 0 auto 1.61vh auto;
+}
+
+h4 {
+    text-align: center;
+    font-size: 3.2vmin;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
